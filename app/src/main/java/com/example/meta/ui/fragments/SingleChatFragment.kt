@@ -16,6 +16,7 @@ class SingleChatFragment(private val contact: CommonModel) : BaseFragment(R.layo
     private lateinit var mReceivingUser:UserModel
     private lateinit var mToolbarInfo:View
     private lateinit var mRefUser:DatabaseReference
+    private lateinit var mRefUser1:DatabaseReference
 
     override fun onResume() {
         super.onResume()
